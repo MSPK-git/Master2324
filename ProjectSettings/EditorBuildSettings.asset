@@ -6,9 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/CSProject/backgroundscene.unity
-    guid: 22e8d0a86b212034ca4fd9d352ffb511
-  - enabled: 1
     path: Assets/Scenes/BreakdanceScene.unity
     guid: 01f483ab07fe43e4c8f6dacfccab6c8f
   m_configObjects:
