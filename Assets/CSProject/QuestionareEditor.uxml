@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Label text="Questionare" style="-unity-font-style: bold; font-size: 18px;" />
+    <ui:TextField picking-mode="Ignore" label="Name" name="name" style="align-items: center; justify-content: center;" />
+    <ui:IntegerField label="Age" value="42" name="age" />
+    <ui:FloatField label="Speed (spline)" value="0.01" name="speedSpline" />
+    <ui:FloatField label="Speed (animation)" value="0.2" name="speedAnimation" />
+    <ui:DropdownField label="Simulation setup" index="0" choices="default,blur,companion,both" name="setup" />
+    <ui:IntegerField label="Simulation time (s)" value="1" readonly="false" tooltip="time in seconds" name="simulationTime" style="align-items: flex-start; flex-direction: row; justify-content: center;" />
+    <ui:Toggle label="VR experience" name="vr" style="align-items: auto; justify-content: center;" />
+    <ui:Button text="Save to CSV file" parse-escape-sequences="true" display-tooltip-when-elided="true" name="save" style="-unity-text-align: middle-center; white-space: normal; transform-origin: center;" />
+</ui:UXML>
