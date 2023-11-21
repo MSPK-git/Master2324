@@ -1,0 +1,24 @@
+20.11 - Animation fertig stellen, Dozentin schreiben, mit Laptop testen, break dance optik finalisieren
+21.11 - Fragebogen einarbeiten / Dokumentation der Implementierung --> Fertigstellung bis 24.11
+
+ToDos doku und konzeption Versuchsaufbau
+Durchführung des Versuchs
+Auswertung des Versuchs und Finalisierungen (Januar)
+
+
+offene todos in der arbeit
+
+
+- Überarbeiten der Metastudie und der Kategorieeinteilung
+- Zusammenfassung und Fazit updaten
+- modellierung
+- Animation
+- editorskript
+- breakdance rotation vs alter stand
+- durchführung studie
+- auswertung daten
+
+
+
+Erledigt:
+

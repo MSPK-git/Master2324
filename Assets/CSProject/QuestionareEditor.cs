@@ -82,10 +82,15 @@ public class QuestionareEditor : EditorWindow
             bdAnimation.speed = speedAnimation;
             splineAnimate.MaxSpeed = speedSpline;
 
-            UnityEngine.Rendering.Universal.Vignette vignette;
+            //UnityEngine.Rendering.Universal.Vignette vignette;
+            //Volume volume = Camera.main.GetComponent<Volume>();
+            //volume.profile.TryGet(out vignette);
+            //vignette.active = setup.Equals("blur") || setup.Equals("both");
+
+            UnityEngine.Rendering.Universal.DepthOfField depthOfField;
             Volume volume = Camera.main.GetComponent<Volume>();
-            volume.profile.TryGet(out vignette);
-            vignette.active = setup.Equals("blur") || setup.Equals("both");
+            volume.profile.TryGet(out depthOfField);
+            depthOfField.active = setup.Equals("blur") || setup.Equals("both");
 
             MeshRenderer renderer = Camera.main.gameObject.GetComponentInChildren<MeshRenderer>();
             renderer.enabled = setup.Equals("companion") || setup.Equals("both");
