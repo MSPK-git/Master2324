@@ -1,0 +1,998 @@
+fileFormatVersion: 2
+guid: 2a602cd23c990ce4da6a7b3eba54614b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ballsprite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 312.1282
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e020e1cd97d10b84495790af34f27b6b
+      internalID: -819019928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballsprite_1
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 0
+        width: 312.1282
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3512260d50057c41a4f3a56876e18e5
+      internalID: -1685186562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballsprite_2
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 0
+        width: 312.1282
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a332eac0cf0c9545bc79ad0e173995d
+      internalID: -1187195758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballsprite_3
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 0
+        width: 312.1282
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e55c279d4fa3a4428d22ce8de522ccb
+      internalID: 62196695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballsprite_4
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 0
+        width: 312.1282
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dfbabf5ec46baf48be557ea6144093b
+      internalID: -1582401507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballsprite_5
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 0
+        width: 312.1282
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a02e6b24ffb028c498071d72ec96735c
+      internalID: -1704508706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballsprite_6
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 0
+        width: 312.1282
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6254f692bd7115e419fcb4c021e3a46f
+      internalID: -1705247950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballsprite_7
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 0
+        width: 312.1282
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b83e7800f48326448da6a3625c11c2b
+      internalID: 745326701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballsprite_8
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 0
+        width: 312.1282
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed879e70f15918b42849a2e325fc9653
+      internalID: 665668361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballsprite_9
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 0
+        width: 312.1282
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d20c323bfa462234a88adc1fbf413cf7
+      internalID: 350736815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballsprite_10
+      rect:
+        serializedVersion: 2
+        x: 3120
+        y: 0
+        width: 312.1282
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d51453522725ce34b958a2014cfbe5f0
+      internalID: -41194240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballsprite_11
+      rect:
+        serializedVersion: 2
+        x: 3432
+        y: 0
+        width: 312.1282
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a325b654a21b5c74ab0769edee6a10c2
+      internalID: 343034036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballsprite_12
+      rect:
+        serializedVersion: 2
+        x: 3744
+        y: 0
+        width: 312.1282
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6527052a3bced1a46b3ab7a603c7c39d
+      internalID: -4714877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballsprite_13
+      rect:
+        serializedVersion: 2
+        x: 4056
+        y: 0
+        width: 312.1282
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc24ba53a53d7c47bb290fdf2899b6a
+      internalID: -1776581664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballsprite_14
+      rect:
+        serializedVersion: 2
+        x: 4368
+        y: 0
+        width: 312.1282
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8516160da3a5114fb308925ada33082
+      internalID: 453352021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballsprite_15
+      rect:
+        serializedVersion: 2
+        x: 4680
+        y: 0
+        width: 312.1282
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7830c83a341ff9c48a9d7472a51a5575
+      internalID: -1001101558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballsprite_16
+      rect:
+        serializedVersion: 2
+        x: 4992
+        y: 0
+        width: 312.1282
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a883b3f95981804a9e70d3d3475fbb5
+      internalID: -2013389356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballsprite_17
+      rect:
+        serializedVersion: 2
+        x: 5304
+        y: 0
+        width: 312.1282
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c2e3e12ebd5b4b42b5e18d902a058de
+      internalID: 19130169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballsprite_18
+      rect:
+        serializedVersion: 2
+        x: 5616
+        y: 0
+        width: 312.1282
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2dcf95151ae92043805f76451074e63
+      internalID: -205816152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballsprite_19
+      rect:
+        serializedVersion: 2
+        x: 5928
+        y: 0
+        width: 312.1282
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e66d3a1e2280b0741aff265de7381010
+      internalID: -1726311105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballsprite_20
+      rect:
+        serializedVersion: 2
+        x: 6240
+        y: 0
+        width: 312.1282
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddbf94f55e2fdc545b5f5fa4ac61d394
+      internalID: -919624689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballsprite_21
+      rect:
+        serializedVersion: 2
+        x: 6552
+        y: 0
+        width: 312.1282
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1379e2ea430bd3f4c91394de5482a310
+      internalID: 303172560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballsprite_22
+      rect:
+        serializedVersion: 2
+        x: 6864
+        y: 0
+        width: 312.1282
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab29fa983b394294a8d19313ffb08bd3
+      internalID: -1710180764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballsprite_23
+      rect:
+        serializedVersion: 2
+        x: 7176
+        y: 0
+        width: 312.1282
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd887b8abde7ca84e8f6330fb7ed77a3
+      internalID: 1260705183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballsprite_24
+      rect:
+        serializedVersion: 2
+        x: 7488
+        y: 0
+        width: 312.1282
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0207982c5de8ac64a82a79dd372d4d65
+      internalID: 370238796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballsprite_25
+      rect:
+        serializedVersion: 2
+        x: 7800
+        y: 0
+        width: 312.1282
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 867ace7257ba4034da79b2fe95f31ae4
+      internalID: 506612221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballsprite_26
+      rect:
+        serializedVersion: 2
+        x: 8112
+        y: 0
+        width: 312.1282
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fa342915577d3a4eab5aa746101216d
+      internalID: -838180464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballsprite_27
+      rect:
+        serializedVersion: 2
+        x: 8424
+        y: 0
+        width: 312.1282
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d89d03389b999c4996ac7111b3d81f4
+      internalID: -126548399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballsprite_28
+      rect:
+        serializedVersion: 2
+        x: 8736
+        y: 0
+        width: 312.1282
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55d4153c99770be4993d553b307684ea
+      internalID: 1036133374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballsprite_29
+      rect:
+        serializedVersion: 2
+        x: 9048
+        y: 0
+        width: 312.1282
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 277a0eceac75a1f469005ec09769b62a
+      internalID: -153562393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballsprite_30
+      rect:
+        serializedVersion: 2
+        x: 9360
+        y: 0
+        width: 312.1282
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 109279ac60df8a441b8b3270484ae859
+      internalID: 1376019106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballsprite_31
+      rect:
+        serializedVersion: 2
+        x: 9672
+        y: 0
+        width: 312.1282
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d12fc3bda1eed2d42ad556ff430b1a78
+      internalID: 159101141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballsprite_32
+      rect:
+        serializedVersion: 2
+        x: 9984
+        y: 0
+        width: 312.1282
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a1594d4d6ec90f40977e1225a0c334b
+      internalID: 1731203032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballsprite_33
+      rect:
+        serializedVersion: 2
+        x: 10296
+        y: 0
+        width: 312.1282
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 405af69eda9e5e04fa0fb3ff491a2c73
+      internalID: 608600182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballsprite_34
+      rect:
+        serializedVersion: 2
+        x: 10608
+        y: 0
+        width: 312.1282
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d4eea7bf4873cf4495bf306cec553af
+      internalID: -308341686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballsprite_35
+      rect:
+        serializedVersion: 2
+        x: 10920
+        y: 0
+        width: 312.1282
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c091ba470601554a80dd37eb64561d6
+      internalID: 1529696031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballsprite_36
+      rect:
+        serializedVersion: 2
+        x: 11232
+        y: 0
+        width: 312.1282
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78bcc4835e93e8546abb567f1e83b6cc
+      internalID: 768321761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballsprite_37
+      rect:
+        serializedVersion: 2
+        x: 11544
+        y: 0
+        width: 312.1282
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f18fdb931d80ff4abd14d290676e348
+      internalID: -861985632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ballsprite_38
+      rect:
+        serializedVersion: 2
+        x: 11856
+        y: 0
+        width: 312.1282
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9000b140ae5b55c48805ed2ba4f715d4
+      internalID: -1211263211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: cabb2d8cf02dd8a4a9cb67ff7dd2c651
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ballsprite_0: -819019928
+      ballsprite_1: -1685186562
+      ballsprite_10: -41194240
+      ballsprite_11: 343034036
+      ballsprite_12: -4714877
+      ballsprite_13: -1776581664
+      ballsprite_14: 453352021
+      ballsprite_15: -1001101558
+      ballsprite_16: -2013389356
+      ballsprite_17: 19130169
+      ballsprite_18: -205816152
+      ballsprite_19: -1726311105
+      ballsprite_2: -1187195758
+      ballsprite_20: -919624689
+      ballsprite_21: 303172560
+      ballsprite_22: -1710180764
+      ballsprite_23: 1260705183
+      ballsprite_24: 370238796
+      ballsprite_25: 506612221
+      ballsprite_26: -838180464
+      ballsprite_27: -126548399
+      ballsprite_28: 1036133374
+      ballsprite_29: -153562393
+      ballsprite_3: 62196695
+      ballsprite_30: 1376019106
+      ballsprite_31: 159101141
+      ballsprite_32: 1731203032
+      ballsprite_33: 608600182
+      ballsprite_34: -308341686
+      ballsprite_35: 1529696031
+      ballsprite_36: 768321761
+      ballsprite_37: -861985632
+      ballsprite_38: -1211263211
+      ballsprite_4: -1582401507
+      ballsprite_5: -1704508706
+      ballsprite_6: -1705247950
+      ballsprite_7: 745326701
+      ballsprite_8: 665668361
+      ballsprite_9: 350736815
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
