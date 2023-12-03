@@ -1,9 +1,13 @@
 using System;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine.XR.Interaction.Toolkit;
 using System.IO;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.Splines;
+using UnityEngine.XR;
 using UnityEngine.UIElements;
 
 public class QuestionareEditor : EditorWindow
@@ -14,7 +18,7 @@ public class QuestionareEditor : EditorWindow
     // CSV varviables
 
     [SerializeField]
-    private string personName;
+    private string personId;
 
     [SerializeField]
     private int age;
@@ -29,10 +33,19 @@ public class QuestionareEditor : EditorWindow
     private string setup = "default";
 
     [SerializeField]
+    private string gender = "other";
+
+    [SerializeField]
     private int simulationTime = 60;
 
     [SerializeField]
+    private int buttonTime = -1;
+
+    [SerializeField]
     private bool vr = true;
+
+    [SerializeField]
+    private bool motionsickness = true;
 
     // other variables
     [SerializeField]
@@ -53,11 +66,11 @@ public class QuestionareEditor : EditorWindow
     {
         if (!File.Exists(path))
         {
-            string csvHeader = "Name;Age;SpeedSpline;SpeedAnimation;Setup;Time;VRExperience" + System.Environment.NewLine;
+            string csvHeader = "Id;Age;Gender;SpeedSpline;SpeedAnimation;Setup;Time;ButtonTime;VRExperience;MotionSickness" + System.Environment.NewLine;
             File.WriteAllText(path, csvHeader);
         }
 
-        File.AppendAllText(path, $"{personName};{age};{speedSpline};{speedAnimation};{setup};{simulationTime};{vr}" + System.Environment.NewLine);
+        File.AppendAllText(path, $"{personId};{age};{gender};{speedSpline};{speedAnimation};{setup};{simulationTime};{buttonTime};{vr};{motionsickness}" + System.Environment.NewLine);
     }
 
     private void OnPlayModeChanged(PlayModeStateChange change)
@@ -92,8 +105,13 @@ public class QuestionareEditor : EditorWindow
             volume.profile.TryGet(out depthOfField);
             depthOfField.active = setup.Equals("blur") || setup.Equals("both");
 
-            MeshRenderer renderer = Camera.main.gameObject.GetComponentInChildren<MeshRenderer>();
-            renderer.enabled = setup.Equals("companion") || setup.Equals("both");
+            if (setup.Equals("blur") || setup.Equals("default")) 
+            {
+                GameObject firstChild = Camera.main.gameObject.transform.GetChild(0).gameObject;
+                firstChild.SetActive(false);
+            }
+            //MeshRenderer renderer = Camera.main.gameObject.GetComponentInChildren<MeshRenderer>();
+            //renderer.enabled = setup.Equals("companion") || setup.Equals("both");
         }
         else if (change == PlayModeStateChange.ExitingPlayMode)
         {
@@ -117,6 +135,15 @@ public class QuestionareEditor : EditorWindow
     {
         if (running)
         {
+            OVRInput.Update();
+            if (OVRInput.GetDown(OVRInput.Button.One))
+            {
+                VisualElement root = rootVisualElement;
+                IntegerField buPTimeField = root.Query<IntegerField>("buttonpresstime").First();
+                int secondsSinceSimulationStart = (int)(DateTime.Now - playStartTime).TotalSeconds;
+                buPTimeField.value = secondsSinceSimulationStart;
+            }
+
             // Track running time and stop playing when simulationTime elapsed
             var delta = DateTime.Now - playStartTime;
             if (delta.TotalSeconds >= simulationTime)
@@ -136,8 +163,8 @@ public class QuestionareEditor : EditorWindow
         // Restore values and register change callback
 
         var nameField = root.Query<TextField>("name").First();
-        nameField.RegisterCallback<ChangeEvent<string>>((value) => personName = value.newValue);
-        nameField.value = personName;
+        nameField.RegisterCallback<ChangeEvent<string>>((value) => personId = value.newValue);
+        nameField.value = personId;
 
         IntegerField ageField = root.Query<IntegerField>("age").First();
         ageField.RegisterCallback<ChangeEvent<int>>((value) => age = value.newValue);
@@ -151,6 +178,10 @@ public class QuestionareEditor : EditorWindow
         speedField2.RegisterCallback<ChangeEvent<float>>((value) => speedAnimation = value.newValue);
         speedField2.value = speedAnimation;
 
+        DropdownField genderField = root.Query<DropdownField>("gender").First();
+        genderField.RegisterCallback<ChangeEvent<string>>((value) => gender = value.newValue);
+        genderField.value = gender;
+
         DropdownField setupField = root.Query<DropdownField>("setup").First();
         setupField.RegisterCallback<ChangeEvent<string>>((value) => setup = value.newValue);
         setupField.value = setup;
@@ -159,9 +190,18 @@ public class QuestionareEditor : EditorWindow
         simuTimeField.RegisterCallback<ChangeEvent<int>>((value) => simulationTime = value.newValue);
         simuTimeField.value = simulationTime;
 
+        IntegerField bPTimeField = root.Query<IntegerField>("buttonpresstime").First();
+        bPTimeField.RegisterCallback<ChangeEvent<int>>((value) => buttonTime = value.newValue);
+        bPTimeField.value = buttonTime;
+
         Toggle vrField = root.Query<Toggle>("vr").First();
         vrField.RegisterCallback<ChangeEvent<bool>>((value) => vr = value.newValue);
         vrField.value = vr;
+
+        Toggle msField = root.Query<Toggle>("vr").First();
+        msField.RegisterCallback<ChangeEvent<bool>>((value) => motionsickness = value.newValue);
+        msField.value = motionsickness;
+
 
         // Link save button
 
