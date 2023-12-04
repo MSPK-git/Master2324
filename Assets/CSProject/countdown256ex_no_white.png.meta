@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4c9f29591d6c4cc43ba5f88f34967e0b
+guid: 9920519116cbde7439a8a435f89db892
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -44,13 +44,13 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 0
-  spriteMeshType: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 256
+  spritePixelsToUnits: 370
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 0
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -123,7 +123,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: countdown256ex_0
+      name: countdown256ex_no_white_0
       rect:
         serializedVersion: 2
         x: 0
@@ -137,14 +137,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5dbb753b6f2a78f43bf4cf662ed46143
-      internalID: 1643173962
+      spriteID: d00c8967d1d1ee046a9ab1b517163ebe
+      internalID: 1762254443
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: countdown256ex_1
+      name: countdown256ex_no_white_1
       rect:
         serializedVersion: 2
         x: 256
@@ -158,14 +158,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5bdedf237ca6c3d4cac7a9687a851bb6
-      internalID: -143524723
+      spriteID: 2bc72ed2d23203f45a8c4495ce23b693
+      internalID: 1492121002
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: countdown256ex_2
+      name: countdown256ex_no_white_2
       rect:
         serializedVersion: 2
         x: 512
@@ -179,14 +179,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e79ceafe460c5584092596742b85f8b9
-      internalID: -984575056
+      spriteID: 9a1df390eef86cb4e8776fe8d72a2a4a
+      internalID: -1276481024
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: countdown256ex_3
+      name: countdown256ex_no_white_3
       rect:
         serializedVersion: 2
         x: 768
@@ -200,14 +200,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f6b6c2678329254d915385762fd33b2
-      internalID: -1261934883
+      spriteID: b1a8bb0c45efd824dafd0bf811d5d7f4
+      internalID: -290757973
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: countdown256ex_4
+      name: countdown256ex_no_white_4
       rect:
         serializedVersion: 2
         x: 1024
@@ -221,14 +221,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5bba97f98e9df346ada1195d2b5de73
-      internalID: -1858570570
+      spriteID: 1777f81052cbce442b380b91117612c2
+      internalID: 238084371
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: countdown256ex_5
+      name: countdown256ex_no_white_5
       rect:
         serializedVersion: 2
         x: 1280
@@ -242,14 +242,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec1fd0798034897418fb84d89b7f7ef4
-      internalID: -1725535102
+      spriteID: 7b2dfd58266d07b47ab96a5c869a10e1
+      internalID: -1288213662
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: countdown256ex_6
+      name: countdown256ex_no_white_6
       rect:
         serializedVersion: 2
         x: 1536
@@ -263,14 +263,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4aa4e0cdae82f4647bbd4f2e6686e8e7
-      internalID: -339598533
+      spriteID: 0db99bc65f448fe4bac408a22b40b8f6
+      internalID: -1622030288
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: countdown256ex_7
+      name: countdown256ex_no_white_7
       rect:
         serializedVersion: 2
         x: 1792
@@ -284,14 +284,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b496901495febf74f94d161f9bd31980
-      internalID: -64093772
+      spriteID: 10934172b5ddc3844b2b4e5a09a71561
+      internalID: -1628616974
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: countdown256ex_8
+      name: countdown256ex_no_white_8
       rect:
         serializedVersion: 2
         x: 2048
@@ -305,14 +305,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9622c72215fd5a745b2091fac2db23d9
-      internalID: -1435434079
+      spriteID: 1ec9245f6da239044927fb38674b2ac5
+      internalID: 1359500057
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: countdown256ex_9
+      name: countdown256ex_no_white_9
       rect:
         serializedVersion: 2
         x: 2304
@@ -326,14 +326,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 85b8d28dbe2b105478c38375fa78bddb
-      internalID: 1952629279
+      spriteID: fb5f60369b66b734dba0cb51a971e931
+      internalID: -155543383
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: countdown256ex_10
+      name: countdown256ex_no_white_10
       rect:
         serializedVersion: 2
         x: 2560
@@ -347,14 +347,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29cba0f6c5966f34c8e14dab991e2df3
-      internalID: -526427117
+      spriteID: 2b42aa1971acda74db7a7b3c4a97fb6b
+      internalID: 779243472
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: countdown256ex_11
+      name: countdown256ex_no_white_11
       rect:
         serializedVersion: 2
         x: 2816
@@ -368,14 +368,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d9a4ef1c6c021d4ba3fdbf89f50e46e
-      internalID: 1414955546
+      spriteID: 22862760b1b50864f99934200fd58204
+      internalID: 1798998906
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: countdown256ex_12
+      name: countdown256ex_no_white_12
       rect:
         serializedVersion: 2
         x: 3072
@@ -389,14 +389,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 817cf21559cd49f4382dbc47c6f6693e
-      internalID: -2074692562
+      spriteID: 7c3bd28624011c04badcd0cff6462852
+      internalID: 1998742841
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: countdown256ex_13
+      name: countdown256ex_no_white_13
       rect:
         serializedVersion: 2
         x: 3328
@@ -410,14 +410,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ffea090e32cab8d4d9e68914b5a6d7b2
-      internalID: 1402897394
+      spriteID: ff7856a441db2ad4ba679f5768e5d56b
+      internalID: 380640854
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: countdown256ex_14
+      name: countdown256ex_no_white_14
       rect:
         serializedVersion: 2
         x: 3584
@@ -431,14 +431,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a3453e8dba239c8439b62c7970bb9283
-      internalID: -1706029671
+      spriteID: 4c4b1ce7a5494094f8dacb609f7031e6
+      internalID: -258126596
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: countdown256ex_15
+      name: countdown256ex_no_white_15
       rect:
         serializedVersion: 2
         x: 3840
@@ -452,14 +452,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4555dda7692b554419e7e0061d6eb76d
-      internalID: -1517956690
+      spriteID: d898ab19e7c30714c96492c6af7b78ba
+      internalID: 1229803249
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: countdown256ex_16
+      name: countdown256ex_no_white_16
       rect:
         serializedVersion: 2
         x: 4096
@@ -473,14 +473,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b483f76aea180b4dacf1eda1faba0c6
-      internalID: -891400318
+      spriteID: 60fe28191a57ba14b98bd55197f829c1
+      internalID: -364554591
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: countdown256ex_17
+      name: countdown256ex_no_white_17
       rect:
         serializedVersion: 2
         x: 4352
@@ -494,14 +494,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c959fff851387984bafae294e42c0d7b
-      internalID: 428981880
+      spriteID: a06f81ca8923dc644b41c9518b5408b1
+      internalID: -1138253290
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: countdown256ex_18
+      name: countdown256ex_no_white_18
       rect:
         serializedVersion: 2
         x: 4608
@@ -515,14 +515,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89ea02721f520454493e921f7eba0b2a
-      internalID: -323875766
+      spriteID: 7ffc7af60892b644f96ffef99221efd3
+      internalID: 20011769
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: countdown256ex_19
+      name: countdown256ex_no_white_19
       rect:
         serializedVersion: 2
         x: 4864
@@ -536,14 +536,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 228e6fa1f4988ff47a32fb1338814c9f
-      internalID: 785748189
+      spriteID: 1422c4efb72ee3d49a124b89804c567b
+      internalID: -1155645149
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: countdown256ex_20
+      name: countdown256ex_no_white_20
       rect:
         serializedVersion: 2
         x: 5120
@@ -557,14 +557,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62fba5123b9c2d848a7512e2897b4c24
-      internalID: -1625964475
+      spriteID: 4093962d274123a4fae48a6a58c6fe45
+      internalID: -1574568792
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: countdown256ex_21
+      name: countdown256ex_no_white_21
       rect:
         serializedVersion: 2
         x: 5376
@@ -578,14 +578,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 458eb82b04266e440bcfd950510386c6
-      internalID: -542234975
+      spriteID: 4302e4cc046570345be71eecb24bd6db
+      internalID: 1402209286
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: countdown256ex_22
+      name: countdown256ex_no_white_22
       rect:
         serializedVersion: 2
         x: 5632
@@ -599,14 +599,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f161c6a2f8fd4d14c97177df32bb5f17
-      internalID: -908031597
+      spriteID: 6d5b62d1b6f96294dbdad095b0558f7b
+      internalID: -1871197801
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: countdown256ex_23
+      name: countdown256ex_no_white_23
       rect:
         serializedVersion: 2
         x: 5888
@@ -620,14 +620,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b819bffee0aa2b945a48fc7fe01d3ea6
-      internalID: -579102842
+      spriteID: 62331f56e734a864f9711c0baa4b1ab1
+      internalID: 1806250921
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: countdown256ex_24
+      name: countdown256ex_no_white_24
       rect:
         serializedVersion: 2
         x: 6144
@@ -641,14 +641,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6a6c5b093d4f7e4cafcc948437fe018
-      internalID: 1844166354
+      spriteID: 344ec638a8f689b45bcbed9a522133aa
+      internalID: 1031017129
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: countdown256ex_25
+      name: countdown256ex_no_white_25
       rect:
         serializedVersion: 2
         x: 6400
@@ -662,14 +662,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d171199d3afae8a42a2ed89afbcbcf41
-      internalID: 734178255
+      spriteID: cbd40aa23695a5c46a82d4b6253d33de
+      internalID: 814196115
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: countdown256ex_26
+      name: countdown256ex_no_white_26
       rect:
         serializedVersion: 2
         x: 6656
@@ -683,14 +683,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d49465190f9514e418bc079c1508fb14
-      internalID: -45858651
+      spriteID: 3a99e7cce13edbc4ca4d97064a98ded0
+      internalID: 24611889
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: countdown256ex_27
+      name: countdown256ex_no_white_27
       rect:
         serializedVersion: 2
         x: 6912
@@ -704,14 +704,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d28cb5b32479794aa095bd132d74a67
-      internalID: -914777661
+      spriteID: 1ffd74c35d3bf484a98a94099a70beae
+      internalID: -1210258941
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: countdown256ex_28
+      name: countdown256ex_no_white_28
       rect:
         serializedVersion: 2
         x: 7168
@@ -725,14 +725,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 53d0e2c378d2a38468be563dc50f0f4e
-      internalID: -2058558460
+      spriteID: 85f1263a4945fd545994240f9dfbd57d
+      internalID: -1244940276
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: countdown256ex_29
+      name: countdown256ex_no_white_29
       rect:
         serializedVersion: 2
         x: 7424
@@ -746,14 +746,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d57d597c37106a42819ed04d7fe907c
-      internalID: 936979503
+      spriteID: c737e213ce951384da0ec41ae669a329
+      internalID: -936048953
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: countdown256ex_30
+      name: countdown256ex_no_white_30
       rect:
         serializedVersion: 2
         x: 7680
@@ -767,14 +767,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1cb2f7774ae57eb4986f277824b4659b
-      internalID: -68907154
+      spriteID: 9806eca51556a7647b90ca3e7919f443
+      internalID: -2062138608
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: countdown256ex_31
+      name: countdown256ex_no_white_31
       rect:
         serializedVersion: 2
         x: 7936
@@ -788,14 +788,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e04d14938271b374a83d4d40e66d9ebe
-      internalID: -1399724174
+      spriteID: c58d507b5e00c8b41a5e4e5d3d044226
+      internalID: -68241577
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: countdown256ex_32
+      name: countdown256ex_no_white_32
       rect:
         serializedVersion: 2
         x: 8192
@@ -809,14 +809,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 503158860f3611d418e989f278d00ef2
-      internalID: 1387978699
+      spriteID: 3f5e86c62da8a5e409c7e7d08d848e8c
+      internalID: 734846789
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: countdown256ex_33
+      name: countdown256ex_no_white_33
       rect:
         serializedVersion: 2
         x: 8448
@@ -830,14 +830,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e7fbef7f20207d45a12fd135712a30c
-      internalID: 886942558
+      spriteID: 7dd3c257851e6f74ba586c227af5fcc2
+      internalID: 1333123371
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: countdown256ex_34
+      name: countdown256ex_no_white_34
       rect:
         serializedVersion: 2
         x: 8704
@@ -851,14 +851,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6a143f59b98e09479d12a8849abef08
-      internalID: 492197002
+      spriteID: 9e7ed90de920a514baba882e90137310
+      internalID: -941198563
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: countdown256ex_35
+      name: countdown256ex_no_white_35
       rect:
         serializedVersion: 2
         x: 8960
@@ -872,14 +872,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9a63e5300fff73428b0ce08adf23043
-      internalID: 633320865
+      spriteID: ac48617e3ec01bf419a0aa87772f842d
+      internalID: -265835653
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: countdown256ex_36
+      name: countdown256ex_no_white_36
       rect:
         serializedVersion: 2
         x: 9216
@@ -893,14 +893,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9f1b5e6616f1214cb05aa6bf5536288
-      internalID: 409593079
+      spriteID: c09c572eb40ae6e49adf34c417c061b6
+      internalID: -1418784341
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: countdown256ex_37
+      name: countdown256ex_no_white_37
       rect:
         serializedVersion: 2
         x: 9472
@@ -914,14 +914,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e3aff4ece86bf354f9515e2c79299a64
-      internalID: -391635396
+      spriteID: 0aa2415312e276f49a50234619a25b76
+      internalID: 1389264197
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: countdown256ex_38
+      name: countdown256ex_no_white_38
       rect:
         serializedVersion: 2
         x: 9728
@@ -935,14 +935,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e63f1aa53d3c784baf398dea8013864
-      internalID: -1009773128
+      spriteID: 997718c4c2c0cee4c86c2b925cdce8d0
+      internalID: 284755904
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: countdown256ex_39
+      name: countdown256ex_no_white_39
       rect:
         serializedVersion: 2
         x: 9984
@@ -956,14 +956,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2816c0c9610c7f947880b8e272ade7fb
-      internalID: -255354504
+      spriteID: eebdc7ecdde810341a1e5b9716338ce4
+      internalID: 520709367
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: countdown256ex_40
+      name: countdown256ex_no_white_40
       rect:
         serializedVersion: 2
         x: 10240
@@ -977,14 +977,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb0c8f7bf89011e4fa9343e0aa946f23
-      internalID: -1219279431
+      spriteID: 4c622d690cf77fa499a635765032aeca
+      internalID: 91610524
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: countdown256ex_41
+      name: countdown256ex_no_white_41
       rect:
         serializedVersion: 2
         x: 10496
@@ -998,14 +998,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d3216f0fb7061f4bb96352c556538ee
-      internalID: 1742766306
+      spriteID: c5373c004847bfe4d98d4744f360744f
+      internalID: -967489490
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: countdown256ex_42
+      name: countdown256ex_no_white_42
       rect:
         serializedVersion: 2
         x: 10752
@@ -1019,14 +1019,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d5282668cdcce34190cdf4e9097f66b
-      internalID: -456468900
+      spriteID: 20812e1c55252f148a373d9072e7931e
+      internalID: -1100402552
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: countdown256ex_43
+      name: countdown256ex_no_white_43
       rect:
         serializedVersion: 2
         x: 11008
@@ -1040,14 +1040,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe27192b36087014790505ad0d21ac66
-      internalID: 717600059
+      spriteID: c19b116e5615cf54aa7d129565de48fc
+      internalID: -15642363
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: countdown256ex_44
+      name: countdown256ex_no_white_44
       rect:
         serializedVersion: 2
         x: 11264
@@ -1061,14 +1061,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d1e637417420b145b6d5133dfbbacd1
-      internalID: -452060539
+      spriteID: 3005946e4be924c4bb9baecbe47933ce
+      internalID: 1731083538
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: countdown256ex_45
+      name: countdown256ex_no_white_45
       rect:
         serializedVersion: 2
         x: 11520
@@ -1082,14 +1082,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8020e00a3ac55fa42beebc6243242490
-      internalID: 136649197
+      spriteID: 4cae03e24418a4c4b80477a0b6ee5672
+      internalID: 21147860
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: countdown256ex_46
+      name: countdown256ex_no_white_46
       rect:
         serializedVersion: 2
         x: 11776
@@ -1103,14 +1103,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 949279eeb5ed08d46bc4e7e5e7c3ed15
-      internalID: 1122991070
+      spriteID: c558cc69cd1fc434eb22996c3eec721c
+      internalID: -1274602411
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: countdown256ex_47
+      name: countdown256ex_no_white_47
       rect:
         serializedVersion: 2
         x: 12032
@@ -1124,14 +1124,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29d578ec06ad5ec4098368e403e2efb1
-      internalID: 167182810
+      spriteID: c2ef9809d81b0a6419bc9b3c705f1a1b
+      internalID: 819669755
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: countdown256ex_48
+      name: countdown256ex_no_white_48
       rect:
         serializedVersion: 2
         x: 12288
@@ -1145,14 +1145,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba88b0520ff32e4438b7c3e4d684ebaf
-      internalID: -2065831811
+      spriteID: d2935f52310b6a647a2d99fad3ee2bfa
+      internalID: 1161558156
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: countdown256ex_49
+      name: countdown256ex_no_white_49
       rect:
         serializedVersion: 2
         x: 12544
@@ -1166,8 +1166,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f357d24a5d5be424eb1613f53f80ad60
-      internalID: -1721843805
+      spriteID: f1927f3585e01664d8d248d6fbb23916
+      internalID: -791484059
       vertices: []
       indices: 
       edges: []
@@ -1175,7 +1175,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 60ff50dcb76df5a408cd30ef01ee78fc
     internalID: 0
     vertices: []
     indices: 
@@ -1183,56 +1183,56 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      countdown256ex_0: 1643173962
-      countdown256ex_1: -143524723
-      countdown256ex_10: -526427117
-      countdown256ex_11: 1414955546
-      countdown256ex_12: -2074692562
-      countdown256ex_13: 1402897394
-      countdown256ex_14: -1706029671
-      countdown256ex_15: -1517956690
-      countdown256ex_16: -891400318
-      countdown256ex_17: 428981880
-      countdown256ex_18: -323875766
-      countdown256ex_19: 785748189
-      countdown256ex_2: -984575056
-      countdown256ex_20: -1625964475
-      countdown256ex_21: -542234975
-      countdown256ex_22: -908031597
-      countdown256ex_23: -579102842
-      countdown256ex_24: 1844166354
-      countdown256ex_25: 734178255
-      countdown256ex_26: -45858651
-      countdown256ex_27: -914777661
-      countdown256ex_28: -2058558460
-      countdown256ex_29: 936979503
-      countdown256ex_3: -1261934883
-      countdown256ex_30: -68907154
-      countdown256ex_31: -1399724174
-      countdown256ex_32: 1387978699
-      countdown256ex_33: 886942558
-      countdown256ex_34: 492197002
-      countdown256ex_35: 633320865
-      countdown256ex_36: 409593079
-      countdown256ex_37: -391635396
-      countdown256ex_38: -1009773128
-      countdown256ex_39: -255354504
-      countdown256ex_4: -1858570570
-      countdown256ex_40: -1219279431
-      countdown256ex_41: 1742766306
-      countdown256ex_42: -456468900
-      countdown256ex_43: 717600059
-      countdown256ex_44: -452060539
-      countdown256ex_45: 136649197
-      countdown256ex_46: 1122991070
-      countdown256ex_47: 167182810
-      countdown256ex_48: -2065831811
-      countdown256ex_49: -1721843805
-      countdown256ex_5: -1725535102
-      countdown256ex_6: -339598533
-      countdown256ex_7: -64093772
-      countdown256ex_8: -1435434079
-      countdown256ex_9: 1952629279
+      countdown256ex_no_white_0: 1762254443
+      countdown256ex_no_white_1: 1492121002
+      countdown256ex_no_white_10: 779243472
+      countdown256ex_no_white_11: 1798998906
+      countdown256ex_no_white_12: 1998742841
+      countdown256ex_no_white_13: 380640854
+      countdown256ex_no_white_14: -258126596
+      countdown256ex_no_white_15: 1229803249
+      countdown256ex_no_white_16: -364554591
+      countdown256ex_no_white_17: -1138253290
+      countdown256ex_no_white_18: 20011769
+      countdown256ex_no_white_19: -1155645149
+      countdown256ex_no_white_2: -1276481024
+      countdown256ex_no_white_20: -1574568792
+      countdown256ex_no_white_21: 1402209286
+      countdown256ex_no_white_22: -1871197801
+      countdown256ex_no_white_23: 1806250921
+      countdown256ex_no_white_24: 1031017129
+      countdown256ex_no_white_25: 814196115
+      countdown256ex_no_white_26: 24611889
+      countdown256ex_no_white_27: -1210258941
+      countdown256ex_no_white_28: -1244940276
+      countdown256ex_no_white_29: -936048953
+      countdown256ex_no_white_3: -290757973
+      countdown256ex_no_white_30: -2062138608
+      countdown256ex_no_white_31: -68241577
+      countdown256ex_no_white_32: 734846789
+      countdown256ex_no_white_33: 1333123371
+      countdown256ex_no_white_34: -941198563
+      countdown256ex_no_white_35: -265835653
+      countdown256ex_no_white_36: -1418784341
+      countdown256ex_no_white_37: 1389264197
+      countdown256ex_no_white_38: 284755904
+      countdown256ex_no_white_39: 520709367
+      countdown256ex_no_white_4: 238084371
+      countdown256ex_no_white_40: 91610524
+      countdown256ex_no_white_41: -967489490
+      countdown256ex_no_white_42: -1100402552
+      countdown256ex_no_white_43: -15642363
+      countdown256ex_no_white_44: 1731083538
+      countdown256ex_no_white_45: 21147860
+      countdown256ex_no_white_46: -1274602411
+      countdown256ex_no_white_47: 819669755
+      countdown256ex_no_white_48: 1161558156
+      countdown256ex_no_white_49: -791484059
+      countdown256ex_no_white_5: -1288213662
+      countdown256ex_no_white_6: -1622030288
+      countdown256ex_no_white_7: -1628616974
+      countdown256ex_no_white_8: 1359500057
+      countdown256ex_no_white_9: -155543383
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
