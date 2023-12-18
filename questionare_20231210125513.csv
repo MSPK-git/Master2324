@@ -1,0 +1,5 @@
+Id;Age;Gender;SpeedSpline;SpeedAnimation;Setup;Time;ButtonTime;VRExperience;MotionSickness
+1;28;male;1;7;default;37;30;True;True
+1;28;male;1;7;companion;60;-1;True;True
+1;28;male;1;7;blur;60;-1;True;True
+1;28;male;1;7;both;60;-1;True;True
