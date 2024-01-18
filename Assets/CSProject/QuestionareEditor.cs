@@ -198,7 +198,7 @@ public class QuestionareEditor : EditorWindow
         vrField.RegisterCallback<ChangeEvent<bool>>((value) => vr = value.newValue);
         vrField.value = vr;
 
-        Toggle msField = root.Query<Toggle>("vr").First();
+        Toggle msField = root.Query<Toggle>("motionsickness").First();
         msField.RegisterCallback<ChangeEvent<bool>>((value) => motionsickness = value.newValue);
         msField.value = motionsickness;
 
