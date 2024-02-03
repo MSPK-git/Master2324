@@ -34,3 +34,7 @@ Depending on the sequence, you can adjust the scene according to a condition by 
 - **Both**
 
 Choose the appropriate condition to customize the scene for your study's requirements.
+
+## Showcase
+
+A video showcasing the scene under all four different conditions (default, companion, blur, both) is available at the following [YouTube link](https://youtu.be/j1vkx1OmATc).
