@@ -26,9 +26,9 @@ For the study setup, please configure the following parameters:
 
 ## Simulation Setup
 
-Depending on the sequence, you can adjust the scene by selecting from the `Simulation setup` dropdown:
+Depending on the sequence, you can adjust the scene according to a condition by selecting from the `Simulation setup` dropdown:
 
-- **Condition Default**
+- **Default**
 - **Companion**
 - **Blur**
 - **Both**
